@@ -36,3 +36,8 @@ def sensor():
     cerrarConexion()
     print(f"nombre del sensor {Nombre}, valor: {Valor}")
     return "OK"
+
+@app.route("api/sensor/lista", methods=['GET'])
+def lista():
+   db = abrirConexion
+   db.execute("SELECT * FROM dates")
