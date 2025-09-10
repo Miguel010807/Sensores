@@ -1,6 +1,6 @@
 #!/bin/sh
 # crear y activdar el entorno virtual
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 # instalar el flask
 pip install flask

@@ -1,0 +1,17 @@
+Antes de inciar cualquier cosa, desde la terminal
+inciarmos el entorno virtual es cual esta en "text.sh"
+en el caso de que no tenga los premisos para ejecutarse
+escribir en la terminal lo siguiente:
+
+"carpeta"ls -las <---- este comando se indica cuales
+archivos tienen persmiso de ejecutarse,
+
+si tiene permiso, te mostraria lo siguiente:
+ 
+ 4 -rwxrwxrwx 1 etec etec   229 sep 10 13:33 text.sh
+
+en el caso contrario:
+
+ 4 -rw-rw-r-- 1 etec etec   229 sep 10 13:33 text.sh
+
+la "x" indica si el archivo tiene persmiso para ejecutarlo
